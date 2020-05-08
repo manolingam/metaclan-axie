@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.App {
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+.logo {
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+	background-color: #25354f;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.logo img {
+	height: 25px;
+	width: auto;
+}
+
+.beauty,
+.ugly {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.axies {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 25px;
+	margin: 15px;
+	background-color: #fcfcfc;
+	border-radius: 25px;
+}
+
+.card img {
+	width: 200px;
+	height: auto;
+	margin: 20px 0;
+	border-radius: 25px;
+}
+
+.inpage-button {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+
+.timer-container {
+	margin-top: 25px;
+}
+
+.timer-title {
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+.timer {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1rem;
+	font-weight: lighter;
+}
+
+.vote-button {
+	margin-top: 15px;
+	margin-bottom: 25px;
+	color: white;
+	background-color: #25354f;
+}
+
+.vote-button:hover {
+	color: #25354f;
+	background-color: white;
+}
+
+@media only screen and (max-width: 650px) {
+	.axies {
+		flex-direction: column;
+	}
+}

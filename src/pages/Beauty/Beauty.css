@@ -1,0 +1,35 @@
+#beauty-contest-title {
+	margin-top: 100px;
+	color: violet;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+.beauty-contest-name {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: violet;
+}
+
+.beauty-details-button {
+	border-radius: 10px;
+	background-color: violet;
+	color: white;
+}
+
+.beauty-details-button:hover {
+	color: white;
+	background-color: rgb(233, 60, 233);
+}
+
+.beauty .ugly-button {
+	color: rgb(39, 150, 39);
+	font-family: 'Roboto Slab', serif;
+	font-size: 1rem;
+	font-weight: 800;
+}
+
+.beauty .ugly-button:hover {
+	color: green;
+	cursor: pointer;
+}

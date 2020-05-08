@@ -1,0 +1,35 @@
+#ugly-contest-title {
+	margin-top: 100px;
+	color: green;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+.ugly-contest-name {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: green;
+}
+
+.ugly-details-button {
+	border-radius: 10px;
+	background-color: rgb(39, 150, 39);
+	color: white;
+}
+
+.ugly-details-button:hover {
+	color: white;
+	background-color: green;
+}
+
+.ugly .beauty-button {
+	color: violet;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1rem;
+	font-weight: 800;
+}
+
+.ugly .beauty-button:hover {
+	color: rgb(233, 60, 233);
+	cursor: pointer;
+}

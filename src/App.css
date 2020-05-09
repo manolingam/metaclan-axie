@@ -83,11 +83,14 @@
 	margin-bottom: 25px;
 	color: white;
 	background-color: #25354f;
+	border: none;
+	transition-duration: 0.3s;
+	transition-property: transform;
 }
 
 .vote-button:hover {
-	color: #25354f;
-	background-color: white;
+	color: white;
+	transform: scale(1.1);
 }
 
 @media only screen and (max-width: 650px) {

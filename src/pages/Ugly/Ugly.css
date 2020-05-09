@@ -1,3 +1,8 @@
+.ugly {
+	background-color: rgb(174, 185, 174);
+	width: 100%;
+}
+
 #ugly-contest-title {
 	margin-top: 100px;
 	color: green;
@@ -23,13 +28,13 @@
 }
 
 .ugly .beauty-button {
-	color: violet;
+	color: #25354f;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1rem;
 	font-weight: 800;
 }
 
 .ugly .beauty-button:hover {
-	color: rgb(233, 60, 233);
+	color: #4a586e;
 	cursor: pointer;
 }

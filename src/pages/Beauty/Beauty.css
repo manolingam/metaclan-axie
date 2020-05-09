@@ -23,13 +23,13 @@
 }
 
 .beauty .ugly-button {
-	color: rgb(39, 150, 39);
+	color: #25354f;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1rem;
 	font-weight: 800;
 }
 
 .beauty .ugly-button:hover {
-	color: green;
+	color: #4a586e;
 	cursor: pointer;
 }

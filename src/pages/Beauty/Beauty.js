@@ -85,8 +85,7 @@ class Beauty extends Component {
 					)}
 				</Timer> */}
 				<div className='timer-container'>
-					<p className='timer-title'>Contest Ends On</p>
-					<div className='timer tag'>May 10 2020, 10.25</div>
+					<div className='timer tag'>Contest ends at 1 EST</div>
 				</div>
 				<a
 					className='button vote-button is-medium'

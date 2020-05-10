@@ -67,26 +67,29 @@ class Ugly extends Component {
 						</a>
 					</div>
 				</div>
-				<Timer initialTime={80000000} direction='backward'>
+				{/* <Timer initialTime={3620000} direction='backward'>
 					{() => (
 						<div className='timer-container'>
 							<p className='timer-title'>Contest Ends In</p>
 							<div className='timer tag'>
-								<Timer.Days /> days <Timer.Hours /> hours{' '}
-								<Timer.Minutes /> minutes <Timer.Seconds />{' '}
-								seconds
+								<Timer.Hours /> hour <Timer.Minutes /> minutes{' '}
+								<Timer.Seconds /> seconds
 							</div>
 						</div>
 					)}
-				</Timer>
-				<button
+				</Timer> */}
+				<div className='timer-container'>
+					<p className='timer-title'>Contest Ends On</p>
+					<div className='timer tag'>May 10 2020, 10.25</div>
+				</div>
+				<a
 					className='button vote-button is-medium'
-					href='https://marketplace.axieinfinity.com/axie/147839'
+					href='https://www.strawpoll.me/20006801'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
 					Vote
-				</button>
+				</a>
 				<p
 					className='beauty-button inpage-button'
 					onClick={() => {

@@ -17,15 +17,15 @@ class Ugly extends Component {
 				</p>
 				<div className='axies'>
 					<div className='card'>
-						<p className='ugly-contest-name'>Dragon</p>
+						<p className='ugly-contest-name'>LuggerUgger MQB9</p>
 						<img
-							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147839/axie/axie-full-transparent.png'
+							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/148145/axie/axie-full-transparent.png'
 							alt=''
 						/>
 
 						<a
 							className='button ugly-details-button'
-							href='https://marketplace.axieinfinity.com/axie/147839'
+							href='https://marketplace.axieinfinity.com/axie/148145'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
@@ -33,16 +33,18 @@ class Ugly extends Component {
 						</a>
 					</div>
 					<div className='card'>
-						<p className='ugly-contest-name'>Ogre</p>
+						<p className='ugly-contest-name'>
+							Psychrolutes Marcidus
+						</p>
 
 						<img
-							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147839/axie/axie-full-transparent.png'
+							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147834/axie/axie-full-transparent.png'
 							alt=''
 						/>
 
 						<a
 							className='button ugly-details-button'
-							href='https://marketplace.axieinfinity.com/axie/147839'
+							href='https://marketplace.axieinfinity.com/axie/147834'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
@@ -50,16 +52,16 @@ class Ugly extends Component {
 						</a>
 					</div>
 					<div className='card'>
-						<p className='ugly-more-name'>Golem</p>
+						<p className='ugly-more-name'>Ariel's Nightmare</p>
 
 						<img
-							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147839/axie/axie-full-transparent.png'
+							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147975/axie/axie-full-transparent.png'
 							alt=''
 						/>
 
 						<a
 							className='button ugly-details-button'
-							href='https://marketplace.axieinfinity.com/axie/147839'
+							href='https://marketplace.axieinfinity.com/axie/147975'
 							target='_blank'
 							rel='noopener noreferrer'
 						>

@@ -38,6 +38,8 @@
 	flex-direction: row;
 	align-items: center;
 	margin-top: 5%;
+	max-height: 100%;
+	overflow-y: auto;
 }
 
 .card {

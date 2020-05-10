@@ -79,15 +79,15 @@ class Ugly extends Component {
 					)}
 				</Timer> */}
 				<div className='timer-container'>
-					<div className='timer tag'>Contest ends at 1 EST</div>
+					<div className='timer tag'>Contest Over!</div>
 				</div>
 				<a
 					className='button vote-button is-medium'
-					href='https://www.strawpoll.me/20006801'
+					href='https://www.strawpoll.me/20006801/r'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Vote
+					Results
 				</a>
 				<p
 					className='beauty-button inpage-button'

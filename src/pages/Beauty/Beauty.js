@@ -17,6 +17,7 @@ class Beauty extends Component {
 				<div className='axies'>
 					<div className='card'>
 						<p className='beauty-contest-name'>Axie #147829</p>
+
 						<img
 							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147829/axie/axie-full-transparent.png'
 							alt=''
@@ -31,6 +32,7 @@ class Beauty extends Component {
 							More Details
 						</a>
 					</div>
+
 					<div className='card'>
 						<p className='beauty-contest-name'>SuzieCute MQB1</p>
 
@@ -85,15 +87,15 @@ class Beauty extends Component {
 					)}
 				</Timer> */}
 				<div className='timer-container'>
-					<div className='timer tag'>Contest ends at 1 EST</div>
+					<div className='timer tag'>Contest Over!</div>
 				</div>
 				<a
 					className='button vote-button is-medium'
-					href='https://www.strawpoll.me/20006791'
+					href='https://www.strawpoll.me/20006791/r'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Vote
+					Results
 				</a>
 				<p
 					className='ugly-button inpage-button'

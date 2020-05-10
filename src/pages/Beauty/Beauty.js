@@ -16,15 +16,15 @@ class Beauty extends Component {
 				</p>
 				<div className='axies'>
 					<div className='card'>
-						<p className='beauty-contest-name'>Cupid</p>
+						<p className='beauty-contest-name'>Axie #147829</p>
 						<img
-							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147861/axie/axie-full-transparent.png'
+							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147829/axie/axie-full-transparent.png'
 							alt=''
 						/>
 
 						<a
 							className='button beauty-details-button'
-							href='https://marketplace.axieinfinity.com/axie/147861'
+							href='https://marketplace.axieinfinity.com/axie/147829'
 							target='_blank'
 							rel='noopener noreferrer'
 						>

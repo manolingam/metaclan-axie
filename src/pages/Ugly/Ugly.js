@@ -33,18 +33,16 @@ class Ugly extends Component {
 						</a>
 					</div>
 					<div className='card'>
-						<p className='ugly-contest-name'>
-							Psychrolutes Marcidus
-						</p>
+						<p className='ugly-contest-name'>Ugly Vasilis</p>
 
 						<img
-							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147834/axie/axie-full-transparent.png'
+							src='https://storage.googleapis.com/assets.axieinfinity.com/axies/147798/axie/axie-full-transparent.png'
 							alt=''
 						/>
 
 						<a
 							className='button ugly-details-button'
-							href='https://marketplace.axieinfinity.com/axie/147834'
+							href='https://marketplace.axieinfinity.com/axie/147798'
 							target='_blank'
 							rel='noopener noreferrer'
 						>

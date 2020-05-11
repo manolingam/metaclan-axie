@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
-import LogoText from '../../assets/logo-text.png';
 import AxieLogo from '../../assets/axie-logo.jpg';
 
 import 'bulma';
@@ -13,9 +12,6 @@ class Home extends Component {
 	render() {
 		return (
 			<div className='home'>
-				<a className='logo' href='https://bulma.io'>
-					<img src={LogoText} alt='' width='112' height='28' />
-				</a>
 				<img id='axie-logo' src={AxieLogo} alt='' />
 
 				<div className='contest-links'>

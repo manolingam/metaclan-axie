@@ -21,7 +21,7 @@ class Home extends Component {
 							this.props.history.push('/beauty');
 						}}
 					>
-						Beauty Contest
+						Meta Contest
 					</button>
 					<button
 						className='button ugly-button'
@@ -29,7 +29,7 @@ class Home extends Component {
 							this.props.history.push('/ugly');
 						}}
 					>
-						Ugly Contest
+						Epic Fail Contest
 					</button>
 				</div>
 			</div>

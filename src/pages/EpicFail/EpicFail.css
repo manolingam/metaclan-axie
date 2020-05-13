@@ -1,5 +1,5 @@
 .ugly {
-	background-color: rgb(174, 185, 174);
+	/* background-color: rgb(174, 185, 174); */
 	width: 100%;
 }
 
@@ -37,4 +37,8 @@
 .ugly .beauty-button:hover {
 	color: #4a586e;
 	cursor: pointer;
+}
+
+.ugly .axies {
+	margin-top: 5%;
 }

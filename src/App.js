@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './pages/Home/Home';
-import Beauty from './pages/Beauty/Beauty';
-import Ugly from './pages/Ugly/Ugly';
+import MetaContest from './pages/MetaContest/MetaContest';
+import EpicFail from './pages/EpicFail/EpicFail';
 
 import LogoText from './assets/logo-text.png';
 
@@ -24,8 +24,8 @@ class App extends Component {
 				</a>
 				<Router>
 					<Route exact path='/' component={Home} />
-					<Route exact path='/beauty' component={Beauty} />
-					<Route exact path='/ugly' component={Ugly} />
+					<Route exact path='/beauty' component={MetaContest} />
+					<Route exact path='/ugly' component={EpicFail} />
 				</Router>
 			</div>
 		);

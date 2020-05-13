@@ -33,3 +33,7 @@
 	color: #4a586e;
 	cursor: pointer;
 }
+
+.beauty .axies {
+	flex-wrap: wrap;
+}

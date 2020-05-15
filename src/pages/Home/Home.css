@@ -31,23 +31,23 @@
 }
 
 .home .beauty-button {
-	background-color: violet;
+	background-color: #ffd700;
 	color: white;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.2rem;
 }
 
 .home .beauty-button:hover {
-	background-color: rgb(233, 60, 233);
+	background-color: #d4af37;
 }
 
 .home .ugly-button {
-	background-color: rgb(39, 150, 39);
+	background-color: #970004;
 	color: white;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.2rem;
 }
 
 .home .ugly-button:hover {
-	background-color: green;
+	background-color: #6b010e;
 }

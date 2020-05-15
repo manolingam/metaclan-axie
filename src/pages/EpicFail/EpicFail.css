@@ -5,7 +5,7 @@
 
 #ugly-contest-title {
 	margin-top: 100px;
-	color: green;
+	color: #970004;
 	font-size: 1.5rem;
 	text-decoration: underline;
 }
@@ -13,29 +13,29 @@
 .ugly-contest-name {
 	font-size: 1.2em;
 	font-weight: 300;
-	color: green;
+	color: #970004;
 }
 
 .ugly-details-button {
 	border-radius: 10px;
-	background-color: rgb(39, 150, 39);
+	background-color: #970004;
 	color: white;
 }
 
 .ugly-details-button:hover {
 	color: white;
-	background-color: green;
+	background-color: #6b010e;
 }
 
 .ugly .beauty-button {
-	color: #25354f;
+	color: #d4af37;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1rem;
 	font-weight: 800;
 }
 
 .ugly .beauty-button:hover {
-	color: #4a586e;
+	color: #ffd700;
 	cursor: pointer;
 }
 

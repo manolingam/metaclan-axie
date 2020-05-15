@@ -1,6 +1,6 @@
 #beauty-contest-title {
 	margin-top: 100px;
-	color: violet;
+	color: #ffd700;
 	font-size: 1.5rem;
 	text-decoration: underline;
 }
@@ -8,29 +8,29 @@
 .beauty-contest-name {
 	font-size: 1.2em;
 	font-weight: 300;
-	color: violet;
+	color: #ffd700;
 }
 
 .beauty-details-button {
 	border-radius: 10px;
-	background-color: violet;
+	background-color: #ffd700;
 	color: white;
 }
 
 .beauty-details-button:hover {
 	color: white;
-	background-color: rgb(233, 60, 233);
+	background-color: #d4af37;
 }
 
 .beauty .ugly-button {
-	color: #25354f;
+	color: #970004;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1rem;
 	font-weight: 800;
 }
 
 .beauty .ugly-button:hover {
-	color: #4a586e;
+	color: #6b010e;
 	cursor: pointer;
 }
 

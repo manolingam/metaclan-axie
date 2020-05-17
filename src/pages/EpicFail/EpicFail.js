@@ -21,10 +21,10 @@ const axies = [
 		marketplace: 'https://marketplace.axieinfinity.com/axie/148074',
 	},
 	{
-		name: 'Axie #148558',
+		name: 'Shunned Seagull',
 		image:
-			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148558/axie/axie-full-transparent.png',
-		marketplace: 'https://marketplace.axieinfinity.com/axie/148558',
+			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148007/axie/axie-full-transparent.png',
+		marketplace: 'https://marketplace.axieinfinity.com/axie/148007',
 	},
 ];
 
@@ -59,20 +59,28 @@ class EpicFail extends Component {
 					})}
 				</div>
 
-				<div className='timer-container'>
+				{/* <div className='timer-container'>
 					<div className='timer tag'>
 						<Countdown
-							date={new Date('2020-05-17T23:00:00')}
+							date={new Date('2020-05-17T21:32:00')}
 							onComplete={() => this.setState({ timeUp: true })}
 						>
 							<p>Contest Over!</p>
 						</Countdown>
 					</div>
-				</div>
-				{this.state.timeUp ? (
+				</div> */}
+				<a
+					className='button vote-button is-medium'
+					href='https://www.strawpoll.me/20079651'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					Vote
+				</a>
+				{/* {this.state.timeUp ? (
 					<a
 						className='button vote-button is-medium'
-						href=''
+						href='https://www.strawpoll.me/20079651/r'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -81,13 +89,13 @@ class EpicFail extends Component {
 				) : (
 					<a
 						className='button vote-button is-medium'
-						href=''
+						href='https://www.strawpoll.me/20079651'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
 						Vote
 					</a>
-				)}
+				)} */}
 				<p
 					className='beauty-button inpage-button'
 					onClick={() => {

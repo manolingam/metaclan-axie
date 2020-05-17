@@ -95,18 +95,25 @@ class MetaContest extends Component {
 						);
 					})}
 				</div>
-
-				<div className='timer-container'>
+				<a
+					className='button vote-button is-medium'
+					href='https://www.strawpoll.me/20079487'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					Vote
+				</a>
+				{/* <div className='timer-container'>
 					<div className='timer tag'>
 						<Countdown
-							date={new Date('2020-05-17T23:00:00')}
+							date={new Date('2020-05-17T21:32:00')}
 							onComplete={() => this.setState({ timeUp: true })}
 						>
 							<p>Contest Over!</p>
 						</Countdown>
 					</div>
-				</div>
-				{this.state.timeUp ? (
+				</div> */}
+				{/* {this.state.timeUp ? (
 					<a
 						className='button vote-button is-medium'
 						href='https://www.strawpoll.me/20079487/r'
@@ -124,7 +131,7 @@ class MetaContest extends Component {
 					>
 						Vote
 					</a>
-				)}
+				)} */}
 
 				<p
 					className='ugly-button inpage-button'

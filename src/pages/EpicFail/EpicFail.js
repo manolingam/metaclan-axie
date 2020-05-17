@@ -71,11 +71,11 @@ class EpicFail extends Component {
 				</div> */}
 				<a
 					className='button vote-button is-medium'
-					href='https://www.strawpoll.me/20079651'
+					href='https://www.strawpoll.me/20079651/r'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Vote
+					Results
 				</a>
 				{/* {this.state.timeUp ? (
 					<a

@@ -97,11 +97,11 @@ class MetaContest extends Component {
 				</div>
 				<a
 					className='button vote-button is-medium'
-					href='https://www.strawpoll.me/20079487'
+					href='https://www.strawpoll.me/20079487/r'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Vote
+					Results
 				</a>
 				{/* <div className='timer-container'>
 					<div className='timer tag'>

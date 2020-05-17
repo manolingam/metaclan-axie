@@ -9,16 +9,16 @@ import './EpicFail.css';
 
 const axies = [
 	{
-		name: 'Use-lysses',
+		name: 'eggsnake + eggowl',
 		image:
-			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148094/axie/axie-full-transparent.png',
-		marketplace: 'https://marketplace.axieinfinity.com/axie/148094',
+			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148463/axie/axie-full-transparent.png',
+		marketplace: 'https://marketplace.axieinfinity.com/axie/148463',
 	},
 	{
-		name: 'Flying Bulbasaur',
+		name: 'Yuckboi',
 		image:
-			'https://storage.googleapis.com/assets.axieinfinity.com/axies/147855/axie/axie-full-transparent.png',
-		marketplace: 'https://marketplace.axieinfinity.com/axie/147855',
+			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148074/axie/axie-full-transparent.png',
+		marketplace: 'https://marketplace.axieinfinity.com/axie/148074',
 	},
 	{
 		name: 'Axie #148558',
@@ -62,7 +62,7 @@ class EpicFail extends Component {
 				<div className='timer-container'>
 					<div className='timer tag'>
 						<Countdown
-							date={new Date('2020-05-17T21:30:00')}
+							date={new Date('2020-05-17T23:00:00')}
 							onComplete={() => this.setState({ timeUp: true })}
 						>
 							<p>Contest Over!</p>
@@ -91,7 +91,7 @@ class EpicFail extends Component {
 				<p
 					className='beauty-button inpage-button'
 					onClick={() => {
-						this.props.history.push('/beauty');
+						this.props.history.push('/meta');
 					}}
 				>
 					..to meta contest

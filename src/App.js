@@ -24,8 +24,8 @@ class App extends Component {
 				</a>
 				<Router>
 					<Route exact path='/' component={Home} />
-					<Route exact path='/beauty' component={MetaContest} />
-					<Route exact path='/ugly' component={EpicFail} />
+					<Route exact path='/meta' component={MetaContest} />
+					<Route exact path='/epicfail' component={EpicFail} />
 				</Router>
 			</div>
 		);

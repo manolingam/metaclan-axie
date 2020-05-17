@@ -9,7 +9,7 @@ import './MetaContest.css';
 
 const axies = [
 	{
-		name: 'Axie #148440',
+		name: 'Bird Sniper',
 		image:
 			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148440/axie/axie-full-transparent.png',
 		marketplace: 'https://marketplace.axieinfinity.com/axie/148440',
@@ -21,7 +21,7 @@ const axies = [
 		marketplace: 'https://marketplace.axieinfinity.com/axie/147998',
 	},
 	{
-		name: 'Axie #147796',
+		name: 'Extraterrestrial Ernie',
 		image:
 			'https://storage.googleapis.com/assets.axieinfinity.com/axies/147796/axie/axie-full-transparent.png',
 		marketplace: 'https://marketplace.axieinfinity.com/axie/147796',
@@ -99,7 +99,7 @@ class MetaContest extends Component {
 				<div className='timer-container'>
 					<div className='timer tag'>
 						<Countdown
-							date={new Date('2020-05-17T21:30:00')}
+							date={new Date('2020-05-17T23:00:00')}
 							onComplete={() => this.setState({ timeUp: true })}
 						>
 							<p>Contest Over!</p>
@@ -109,7 +109,7 @@ class MetaContest extends Component {
 				{this.state.timeUp ? (
 					<a
 						className='button vote-button is-medium'
-						href=''
+						href='https://www.strawpoll.me/20079487/r'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -118,7 +118,7 @@ class MetaContest extends Component {
 				) : (
 					<a
 						className='button vote-button is-medium'
-						href=''
+						href='https://www.strawpoll.me/20079487'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
@@ -129,7 +129,7 @@ class MetaContest extends Component {
 				<p
 					className='ugly-button inpage-button'
 					onClick={() => {
-						this.props.history.push('/ugly');
+						this.props.history.push('/epicfail');
 					}}
 				>
 					..to epic fail contest

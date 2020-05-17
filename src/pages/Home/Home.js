@@ -18,7 +18,7 @@ class Home extends Component {
 					<button
 						className='button beauty-button'
 						onClick={() => {
-							this.props.history.push('/beauty');
+							this.props.history.push('/meta');
 						}}
 					>
 						Meta Contest
@@ -26,7 +26,7 @@ class Home extends Component {
 					<button
 						className='button ugly-button'
 						onClick={() => {
-							this.props.history.push('/ugly');
+							this.props.history.push('/epicfail');
 						}}
 					>
 						Epic Fail Contest

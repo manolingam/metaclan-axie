@@ -9,24 +9,29 @@ import './EpicFail.css';
 
 const axies = [
 	{
+		name: 'Use-lysses',
 		image:
-			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148145/axie/axie-full-transparent.png',
-		marketplace: 'https://marketplace.axieinfinity.com/axie/148145',
+			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148094/axie/axie-full-transparent.png',
+		marketplace: 'https://marketplace.axieinfinity.com/axie/148094',
 	},
 	{
+		name: 'Flying Bulbasaur',
 		image:
-			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148145/axie/axie-full-transparent.png',
-		marketplace: 'https://marketplace.axieinfinity.com/axie/148145',
+			'https://storage.googleapis.com/assets.axieinfinity.com/axies/147855/axie/axie-full-transparent.png',
+		marketplace: 'https://marketplace.axieinfinity.com/axie/147855',
 	},
 	{
+		name: 'Axie #148558',
 		image:
-			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148145/axie/axie-full-transparent.png',
-		marketplace: 'https://marketplace.axieinfinity.com/axie/148145',
+			'https://storage.googleapis.com/assets.axieinfinity.com/axies/148558/axie/axie-full-transparent.png',
+		marketplace: 'https://marketplace.axieinfinity.com/axie/148558',
 	},
 ];
 
 class EpicFail extends Component {
-	state = {};
+	state = {
+		timeUp: false,
+	};
 	render() {
 		return (
 			<div className='ugly'>
@@ -38,9 +43,7 @@ class EpicFail extends Component {
 					{axies.map((axie, index) => {
 						return (
 							<div className='card' key={index}>
-								<p className='ugly-contest-name'>
-									Axie #{index}
-								</p>
+								<p className='ugly-contest-name'>{axie.name}</p>
 								<img src={axie.image} alt='' />
 
 								<a
@@ -58,13 +61,23 @@ class EpicFail extends Component {
 
 				<div className='timer-container'>
 					<div className='timer tag'>
-						<Countdown date={new Date('2020-05-12T13:14:00')}>
+						<Countdown
+							date={new Date('2020-05-17T21:30:00')}
+							onComplete={() => this.setState({ timeUp: true })}
+						>
 							<p>Contest Over!</p>
 						</Countdown>
 					</div>
 				</div>
 				{this.state.timeUp ? (
-					<p>Contest Ended!</p>
+					<a
+						className='button vote-button is-medium'
+						href=''
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						Results
+					</a>
 				) : (
 					<a
 						className='button vote-button is-medium'
